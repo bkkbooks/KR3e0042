@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR3e0042/v1
+canonical_location: https://kanripo.org/bkk/KR3e0042/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 集驗背疽方
+  date: '2015-08-24 23:05:31.531100'
+  source:
+    repository: kanripo
+    path: KR3e0042
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3e0042_000.yaml, hash: 'sha256:0f436b2a0950a54e1439fcd39bf6a19c8ddf768146fb0342702bb422f6827f62'}
+  - {seq: 1, filename: KR3e0042_001.yaml, hash: 'sha256:da5f37e8d388eff7b57676a3ccfae61870aab10fa88b73e5a85cfe42b014372e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3e0042_000.markers.yaml, hash: 'sha256:198fdf58a0ad44e56c97291ccb30aef6b1e96e441ac7d36e590d5d8ae76c327b'}
+  - {seq: 1, role: markers, filename: assets/KR3e0042_001.markers.yaml, hash: 'sha256:4c757b0409cb9ce371132ef4d94eac0f0b3ec0e457a6465cfa4678e46c79378e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3e0042_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 419
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3e0042_WYG_000-3a
+    span:
+    - body
+    - 419
+    - 843
+  label: 李氏集驗方序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3e0042_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 7577
+  label: 集驗背疽方
+  type: section
+  level: 1
+hash: sha256:74f76fdf1e04dd933caa8843efe8578105806be0f52e4d72431efffa3b97929f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
