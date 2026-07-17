@@ -23,8 +23,8 @@ assets:
   - {seq: 0, filename: KR3e0042_000.yaml, hash: 'sha256:da2f664a55f1d21e5a80b0bafec8874efcc0b2b6c90b35ee23222c0f43b8eeb7'}
   - {seq: 1, filename: KR3e0042_001.yaml, hash: 'sha256:e18de659b95976eff70d083cadd40a9fbb216fc9d8466dee8b791ed24c910e73'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR3e0042_000.markers.yaml, hash: 'sha256:334a87cb07374b6944603dd2ef007f864f8fda8bd4d37a039e74f186b80534fe'}
-  - {seq: 1, role: markers, filename: assets/KR3e0042_001.markers.yaml, hash: 'sha256:f443175ad4a813ab28810b461ed06e893cf409f32ca92e3b1f7b9be1cc1d7fa9'}
+  - {seq: 0, role: markers, filename: assets/KR3e0042_000.markers.yaml, hash: 'sha256:cca152f2adb7c93def79c4b14d6c42e5289dd5619cf09ec9caa7c1221bcac396'}
+  - {seq: 1, role: markers, filename: assets/KR3e0042_001.markers.yaml, hash: 'sha256:78575db0361bbc2ab8d634c6b8e968d00010f08fb2d4a23e531434a86c9c52cd'}
 table_of_contents:
 - ref:
     seq: 0
@@ -56,7 +56,7 @@ table_of_contents:
   label: 集驗背疽方
   type: section
   level: 1
-hash: sha256:21f2bc593a1f05e3d047b215b2c892683ef6f86e58b6e9e89eb69f6e7832094d
+hash: sha256:46b5886f8c343b378f02932b675359b611b11c400a68efbbc2b308e2417b819a
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
